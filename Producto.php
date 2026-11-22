@@ -1,6 +1,6 @@
 <?php
 // Clase abstracta base con atributos comunes y metodos abstractos para los productos
-abstrac class Producto {
+abstract class Producto {
   protected string $id;
   protected string $nombre;
   protected float $precioBase;
