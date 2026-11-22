@@ -12,4 +12,6 @@ echo "<h2>Sistema de Gestion de Inventarios (Polimorfismo en POO)</h2>";
 echo "<ul>";
 //Polimorfismo: llamamos al mismo metodo mostrarDetalles() y cada objeto ejecuta su propia version
 foreach ($inventario as $producto) {
-  echo "<li>" . $producto-> mostrarDetalles() . "</li>";
+  echo "<li>" . $producto->mostrarDetalles() . "</li>";
+}
+echo "</ul>";
