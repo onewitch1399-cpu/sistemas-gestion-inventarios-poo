@@ -4,7 +4,8 @@ require_once 'Descontable.php';
 // Subclase Alimento: hereda de Producto e implementa la interfaz Descontable
 class Alimento extends Producto implements Descontable {
   private string $fechaCaducidad;
-  public function __construct($id, $nombre, $precioBase, $stock);
+  public function __construct(string $id, string $nombre, float $precioBase, int $stock, string $fechaCaducidad) {
+    parent::__construct($id, $nombre,$precioBase, $stock);
   $this->fechaCaducidad = $fechaCaducidad;
 }
 // Calcula el precio aplicando un porcentaje de descuento
