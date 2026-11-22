@@ -3,7 +3,7 @@ require_once 'Producto.php';
 require_once 'Descontable.php';
 // Subclase Ropa: hereda de Producto e implementa la interfaz Descontable
 class Ropa extends Producto implements Descontable {
-  private strings $talla;
+  private string $talla;
   public function __construct(string $id, string $nombre, float $precioBase, int $stock, string $talla) {
     parent::__construct($id, $nombre, $precioBase, $stock);
     $this->talla = $talla;
