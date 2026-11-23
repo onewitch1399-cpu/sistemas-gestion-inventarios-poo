@@ -6,7 +6,7 @@ abstract class Producto {
   protected float $precioBase;
   protected int $stock;
 
-public function __construct(string $id, string $nombre, float $precioBase, int $stock)
+public function __construct(string $id, string $nombre, float $precioBase, int $stock) {
   $this->id = $id;
   $this->nombre = $nombre;
   $this->precioBase = $precioBase;
