@@ -15,7 +15,7 @@ public function aplicarDescuento(float $porcentaje): float {
 }
 // Implementacion polimorfica: aplica un 10% de descuento base a electronicos
 public function calcularPrecioFinal(): float {
-  return $this->aplicarDescuanto(10);
+  return $this->aplicarDescuento(10);
 }
 // Muestra los detalles del producto electronico incluyendo garantia y precio final
 public function mostrarDetalles(): string {
