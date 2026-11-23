@@ -15,6 +15,7 @@ public function __construct(string $id, string $nombre, float $precioBase, int $
 public function getstock(): int {
   return $this->stock;
 }
+}
 // Cada subclase definira como calcula su precio final y muestra sus detalles
 abstract public function calcularPrecioFinal(): float;
 abstract public function mostrarDestalles(): string;
