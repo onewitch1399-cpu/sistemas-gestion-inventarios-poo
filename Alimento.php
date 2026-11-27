@@ -14,7 +14,7 @@ public function aplicarDescuento(float $porcentaje): float {
 }
 // Implementacion polimorfica: aplica un 5% de promocion en alimentos
 public function calcularPrecioFinal(): float {
-  return $this->aplicarDescuanto(5);
+  return $this->precioBase * 0.95;
 }
 // Muestra los detalles del alimento incluyendo fecha de caducidad y precio final
 public function mostrarDetalles(): string {
