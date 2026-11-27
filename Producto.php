@@ -18,5 +18,5 @@ public function getstock(): int {
 }
 // Cada subclase definira como calcula su precio final y muestra sus detalles
 abstract public function calcularPrecioFinal(): float;
-abstract public function mostrarDestalles(): string;
+abstract public function mostrarDetalles(): string;
 }
